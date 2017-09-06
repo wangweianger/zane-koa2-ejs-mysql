@@ -1,7 +1,7 @@
-#zane-koa2-restful-api
+#zane-koa2-ejs-mysql
 
 
-### 项目采用 koa2+gulp+mysal 搭建的一套后台集成模板
+### 项目采用 koa2+gulp+mysql 搭建的一套后台前端集成模板
 
 ##项目通过gulp-nodemon 实时编译刷新node服务
 
@@ -45,6 +45,7 @@
 	项目通过gulp-nodemon 实时编译刷新node服务
 	提供了mysql的封装函数 和案例 （我自己开发使用时做的）
 	提供了邮件发送 nodemailer 配置
+	提供了七牛云上传JDK
 
 ```
 

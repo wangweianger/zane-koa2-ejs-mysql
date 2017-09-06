@@ -6,18 +6,18 @@ class qiuniuyun {
 
     constructor() {
         //要上传的空间
-        this.bucket = 'zane';
+        this.bucket = 'xxx';
         this.init()
     }
 
     init() {
-        qiniu.conf.ACCESS_KEY = 'M8_QFRKMdDAsV2FRyrUb0C-nvVYmIhXZEs5ROYn5';
-        qiniu.conf.SECRET_KEY = '3SZ4SHc4KB306ssJq6ul_tdVq7IHc7-DrUymHxlT';
+        qiniu.conf.ACCESS_KEY = 'xxxxxxxx';
+        qiniu.conf.SECRET_KEY = 'xxxxxxxx';
     }
 
     //调用uploadFile上传    
     async upload(filePath) {
-        filePath = filePath || './01.png'
+        filePath = filePath 
             //上传到七牛后保存的文件名
         let key = util.randomString() + '.png';
         //生成上传 Token
