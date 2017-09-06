@@ -72,19 +72,4 @@ a:hover{text-decoration:none;}
 .bold{font-weight:bold;}
 .red{color:red;}
 
-@font-face {
-  font-family: 'iconfont';  /* project id 133474 */
-  src: url('//at.alicdn.com/t/font_wem4woeeksf3l3di.eot');
-  src: url('//at.alicdn.com/t/font_wem4woeeksf3l3di.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_wem4woeeksf3l3di.woff') format('woff'),
-  url('//at.alicdn.com/t/font_wem4woeeksf3l3di.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_wem4woeeksf3l3di.svg#iconfont') format('svg');
-}
-@mixin icon-font ($sizing) {
-    font-family:"iconfont";
-	font-size:$sizing;
-	font-style:normal;
-	vertical-align: middle;
-}
-.iconfont{@include icon-font(16px)}
 @import "common.scss"
