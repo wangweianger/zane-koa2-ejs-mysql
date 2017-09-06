@@ -13,8 +13,10 @@ export let SYSTEM = {
 
 	DEBUG: false,
 
-	BASEIMG: 'http://ormfcl92t.bkt.clouddn.com/',
+	// 七牛云根路径
+	BASEIMG: 'http://xxx.bkt.clouddn.com/',
 
+	// 后台登录账号和密码  （可替换为数据库用户密码登录方式）
 	USERMSG:{
 		USERNAME:'admin',
 		PASSWORD:'123456789'
