@@ -27,7 +27,7 @@ gulp.task('nodemon', function() {
         },
         verbose: true,
         ignore: ['build/*.js', 'dist/*.js', 
-            'src/assets/**',
+            'src/assets/css/**',
             'nodemon.json', '.git', 'node_modules/**/node_modules', 
             'gulpfile.js'
         ],

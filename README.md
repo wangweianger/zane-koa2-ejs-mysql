@@ -7,7 +7,7 @@
 
 
 ##项目目录结构
-```
+```js
 	assets    
 	build 
 		server.js     	项目启动文件 babel 编译
@@ -40,7 +40,7 @@
 
 ### 说明
 
-```
+```html
 	项目使用babel编译
 	项目通过gulp-nodemon 实时编译刷新node服务
 	提供了mysql的封装函数 和案例 （我自己开发使用时做的）
@@ -52,7 +52,7 @@
 
 
 ##运行方式
-```
+```js
 	开发环境：npm run dev
 
 	打包：npm run build

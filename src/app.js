@@ -31,7 +31,7 @@ render(app, {
     cache: true,
     debug: SYSTEM.DEBUG
 });
-
+ 
 app
     .use(cookie())
     .use(session(app))
@@ -42,7 +42,7 @@ app
         }
     }))
     .use(serve(__dirname + "/assets",{
-        maxage: 365 * 24 * 60 * 60
+        maxage: 365 * 24 * 60 * 60 
     }))
     .use(koa2Common())
     .use(cors({

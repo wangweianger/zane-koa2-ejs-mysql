@@ -1,5 +1,5 @@
 import path from 'path'
-
+ 
 // 系统配置
 export let SYSTEM = {
 	//允许调用接口的域名，用来检测防盗链

@@ -2,14 +2,12 @@
 <!-- 样式 -->
 <link rel="stylesheet" href="/css/front-home.css">
 <div class="main" id="home" >
-
 	<% datas.datas.forEach(function (item) {%> 
 		<ul>
 			<li>姓名：<%= item.name %>  ------ 年龄：<%= item.age %></li>
 		</ul>
 
 	<% })%>   
-	
 </div>
 <script src="/js/front-home.js"></script>
 <%- include("./footer.html") %>
